@@ -41,7 +41,14 @@ body {
   cursor: pointer;
   position: relative;
   top: 0;
-  transition: top 0.5s ease-out; 
+  transition: top 1s ease-out; 
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 414px) {
+  .card-image {
+    max-width: 80%;
+  }
 }
 
 
