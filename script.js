@@ -99,7 +99,7 @@ function playRound(playerSelection, computerSelection) {
     } else if (computerSelection === 'Scissors') {
       log = 'You Win! Rock beats Scissors.';
     } else {
-      log = "Tie";
+      log = "Tie o___o";
     }
   } else if (playerSelection === 'Paper') {
     if (computerSelection === 'Scissors') {
@@ -107,7 +107,7 @@ function playRound(playerSelection, computerSelection) {
     } else if (computerSelection === 'Rock') {
       log = 'You Win! Paper beats Rock.';
     } else {
-      log = "Tie";
+      log = "Tie -___-";
     }
   } else if (playerSelection === 'Scissors') {
     if (computerSelection === 'Rock') {
@@ -115,7 +115,7 @@ function playRound(playerSelection, computerSelection) {
     } else if (computerSelection === 'Paper') {
       log = 'You Win! Scissors beats Paper.';
     } else {
-      log = "Tie.";
+      log = "Tie. >___<";
     }
   }
 
