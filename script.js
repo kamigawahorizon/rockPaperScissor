@@ -37,7 +37,7 @@ images.forEach((image) =>
     if (playerScore >= 5 || computerScore >= 5) {
       return;
     }
-    game(image.dataset.image);
+    game(image.dataset.image); 
   })
 );
 
